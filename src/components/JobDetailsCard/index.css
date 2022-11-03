@@ -1,0 +1,197 @@
+.job-item-details-container {
+  background-color: black;
+  padding: 10px;
+}
+
+.product-item {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  flex-grow: 0;
+  flex-shrink: 1;
+  color: white;
+  background-color: #202020;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .product-item {
+    min-width: 768px;
+  }
+}
+.card1 {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 10px;
+}
+.card-2 {
+  display: flex;
+  justify-content: space-between;
+}
+.company-logo {
+  width: 70px;
+  height: 70px;
+  margin: 10px;
+}
+.title {
+  color: white;
+}
+.main-title {
+  display: flex;
+  align-items: center;
+}
+.star {
+  width: 15px;
+}
+.card-3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 10px;
+}
+.icon-mod {
+  margin-right: 10px;
+}
+.card-31 {
+  display: flex;
+  flex-direction: row;
+}
+.ruler2 {
+  border-width: 1px;
+  width: 100%;
+}
+.link-item {
+  text-decoration: none;
+  color: white;
+}
+.product-details-success-view {
+  background-color: black;
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.link-card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skill-card {
+  display: flex;
+  padding: 10px;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+.description-container {
+  display: flex;
+  padding: 10px;
+}
+.des-pic {
+  width: 250px;
+  height: 150px;
+  margin-left: 10px;
+}
+.des-text {
+  font-size: 18px;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+.similar-text {
+  color: white;
+  text-align: start;
+}
+.similar-jobs-list-container {
+  list-style-type: none;
+  display: flex;
+  padding: 10px;
+}
+.external {
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+}
+
+.anchor {
+  color: white;
+  text-decoration: none;
+}
+
+.products-error-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 48px;
+  padding-bottom: 64px;
+}
+
+@media screen and (min-width: 768px) {
+  .products-error-view-container {
+    margin-top: 0px;
+    margin-left: 30px;
+    width: 70%;
+    padding-bottom: 0;
+  }
+}
+
+.products-failure-img {
+  width: 250px;
+  height: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  .products-failure-img {
+    width: 400px;
+    height: 350px;
+  }
+}
+
+.product-failure-heading-text {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+@media screen and (min-width: 768px) {
+  .product-failure-heading-text {
+    font-size: 24px;
+  }
+}
+
+.products-failure-description {
+  text-align: center;
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 14px;
+  width: 90%;
+  max-width: 288px;
+  line-height: 1.3;
+}
+
+@media screen and (min-width: 768px) {
+  .products-failure-description {
+    font-size: 18px;
+    width: 60%;
+    max-width: 466px;
+  }
+}
+
+.products-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+  .products-loader-container {
+    width: 70%;
+  }
+}

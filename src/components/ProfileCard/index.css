@@ -1,0 +1,17 @@
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 10px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+}
+.dp {
+  width: 50px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.info-name {
+  color: #4f46e5;
+}
